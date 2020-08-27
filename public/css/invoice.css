@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo');
+
+* {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+.saveOrderButton {
+    display: none;
+}
+
+.card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.table thead tr {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table,
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+}
